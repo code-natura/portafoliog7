@@ -1,0 +1,501 @@
+/* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar,
+recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a
+personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
+*/
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #9e9e9e;
+    --color-de-link: #000000;
+    --color-de-caja: #969696;
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-de-link);
+	font-family: Raleway, sans-serif;
+}
+
+/* ------------------------------ Sección Menú -------------------------------*/
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-de-fondo-menu);
+}
+
+.cabecera__logo {
+    
+    max-width: 80px; /* Ajuste para pantallas pequeñas */
+    margin: 0 8%;
+    
+}
+
+.cabecera__titulo {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.navegacion__lista {
+    display: none;
+}
+
+.navegacion__elemento a {
+    font-size: 0.9rem;
+}
+/* ------------------------------ Sección Presentación ------------------------------*/
+.presentacion {
+    display: flex;
+    flex-direction: column;
+
+    
+    
+    align-items: center;
+    gap: 7px;
+    margin: 0 8%;
+    
+}
+
+.presentacion__titulo{
+    display: flex;
+    bottom: 0%;
+   
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    
+   }
+
+.presentacion__subtitulo {
+    bottom: 0%;
+    font-weight: 700;
+    line-height: 61px;
+    justify-content: space-around;
+    
+}
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row-reverse;
+ 	align-items: flex-end;
+}
+ 
+.presentacion__foto{
+    transform: scale(0.7);
+       
+  }
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+.sobre-mi{
+	
+    margin: 0 8%;
+	
+}
+
+.sobre-mi__texto{
+	
+}
+
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+.habilidades__titulo{
+	text-align: center;
+	margin: 5% 8%;
+    
+}
+
+.habilidades__lista{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 7px;
+    margin: 0 8%;
+}
+
+/*------------------------------ Sección de Aficiones --------------------------------*/
+
+.aficiones__titulo{
+	text-align: center;
+	margin: 5% 8%;
+}
+
+.aficiones__lista{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 7px;
+    margin: 0 8%;
+}
+
+.habilidades__nombre{
+	
+}
+
+/*------------------------------ Sección de académica --------------------------------*/
+.formacion__titulo{
+	text-align: center;
+	margin: 5% 8%;
+}
+
+
+.formacion__lista{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin: 0 8%;
+    
+    /**/
+}
+
+.formacion__icono{
+    transform: scale(0.7);
+}
+
+/*------------------------------ Sección de Proyectos --------------------------------*/
+.proyectos__titulo{
+    text-align: center;
+	margin: 5% 8%;
+}
+
+
+/* Titulo seccion*/
+.experience__section__title {
+    font-size: 32px;
+    text-align: center;
+    
+}
+
+/*Posicion de la seccion*/
+.experiencie__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin: 0 8%;
+    }
+    
+
+    .experience__img {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 8%;
+    
+        transform: scale(0.8);
+     
+               
+    }
+
+
+.experience__info{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 8%;
+}
+.experience__info h2 {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+.experience__info p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}
+
+.experience__info-container h2 {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+div.experience__info-container p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}
+
+section.experience div.experience__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-bottom: 32px;
+}
+
+.experience__info-container,
+.experience__info {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    width: 368px;
+    margin-left: 16px;
+
+
+}
+/*   boton izquierdo    */
+.experiencia__botao--repo {
+    width: 105px;
+    height: 51px;
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*   boton derecho   */
+.experience__botao--demo {
+    width: 116px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    cursor: pointer;
+}
+
+.formcontato__botao {
+    width: 144px;
+    height: 51px;
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:disabled {
+    width: 144px;
+    height: 51px;
+    background: grey;
+    border: none;
+    color: #FFFFFF;
+    text-decoration: line-through;
+    cursor: none;
+
+}
+
+/*------------------------------ Sección de Contacto ---------------------------------*/
+.formcontato__img{
+    
+   align-items: center;
+   
+
+    transform: scale(0.6);
+}
+
+
+
+.formcontato__contacto {
+       
+   margin: 5% 8%;;
+}
+
+
+
+.formcontato__form input,
+textarea {
+    width: 99%;
+}
+
+
+.formcontato__title {
+    margin-top: 0px
+}
+
+.textarea {
+    box-sizing: border-box;
+    border: 1px solid var(--color-de-fondo-menu);
+    padding: 0.5rem;
+    border-radius: 7px;
+    width: 100%;
+    min-height: 3rem;
+}
+
+.textarea-container {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: var(--color-de-fondo-menu);
+}
+
+.textarea::placeholder {
+    visibility: hidden;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.textarea-label {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: var(--color-de-fondo-menu);
+    transition: all 0.25s;
+}
+
+.textarea:not(:placeholder-shown)+.textarea-label,
+.textarea:focus+.textarea-label {
+    font-size: 0.875rem;
+    top: -1.25rem;
+    transition: all 0.25s;
+}
+
+.textarea-container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.textarea-container--invalid .textarea {
+    border: 1px solid var(--color-de-fondo-menu);
+}
+
+.textarea-container--invalid .textarea-label {
+    color: var(--color-de-fondo-menu);
+}
+
+.textarea-mensagem-erro {
+    display: none;
+}
+
+.textarea-container--invalid .textarea-mensagem-erro {
+    display: block;
+    color: var(--color-de-fondo-menu);
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Tablets y pantallas más grandes */
+@media (min-width: 768px) {
+    body {
+        
+    }
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow:l;
+    }
+
+    .cabecera__logo {
+        max-width: 100px;
+    }
+
+    .cabecera__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1rem;
+    }
+
+    .presentacion{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .presentacion__foto{
+      transform: scale(1);
+         
+    }
+
+    .proyectosexperiencie__box{
+        
+
+    }
+
+
+    .formacion__lista{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+    margin: 0 8%;
+
+    }
+
+/*Posicion de la seccion*/
+
+.experience__img {
+    display: flex;
+    align-items: center;
+     transform: scale(1);
+               
+    }
+.experiencie__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8%;
+}
+
+
+/* contacto*/
+
+    .formcontato__img{
+        display: flex;
+        justify-content: flex-start;
+        transform: scale(1);
+    }
+    .formcontato__contacto {
+        display: flex;
+        flex-direction: column wrap;
+       gap: 20px;
+        
+        margin: 5% 8%;
+    }
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
+    .cabecera__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1.1rem;
+    }
+}
